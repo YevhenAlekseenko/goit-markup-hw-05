@@ -292,8 +292,28 @@ a {
   justify-content: space-between;
 }
 
+.class-img {
+  position: relative;
+}
+
 .class-img + .class-img {
   margin-left: 30px;
+}
+
+.class-caption-pictures {
+  position: absolute;
+  bottom: 0;
+  color: var(--primary-white-color);
+  text-transform: uppercase;
+  padding-top: 27px;
+  padding-bottom: 27px;
+  width: 100%;
+  background: rgba(47, 48, 58, 0.8);
+  text-align: center;
+
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
 }
 
 /* Team */
@@ -665,4 +685,21 @@ a {
   min-width: 528px;
 
   background-color: #fff;
+}
+
+.button-close {
+  display: flex;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+  align-items: center;
+  justify-content: center;
+
+  position: absolute;
+  top: 8px;
+  right: 8px;
+
+  cursor: pointer;
 }
